@@ -10,17 +10,18 @@ public class ProdutoTeste {
 		
 		
 		//Type variable = new instantiate(instânciar)
+		//P1 and P2 i can call this how "instância" or "membros"
 		Produto p1 = new Produto();
 		p1.nome = "Notebook";
 		p1.preco = 4356.59;
 		p1.desconto=0.25;
 		
-		//In JAVA, I can insert this variable beacuse JAVA
+		//In JAVA, I can insert this variable because JAVA
 		// can infer(inferir) the types.
-		var p2 = new Produto();
-		p2.nome = "Caneta Preta";
-		p2.preco = 2.56;
-		p2.desconto=0.35;
+		var p2 = new Produto(); // constructor
+		p2.nome = "Caneta Preta"; //instantiate
+		p2.preco = 2.56; //instantiate
+		p2.desconto=0.35; //instantiate
 		
 		System.out.println(p1.nome);
 		System.out.println(p2.nome);
