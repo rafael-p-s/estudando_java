@@ -7,4 +7,8 @@ public class Produto {
 	double preco;
 	double desconto;
 
+	// In this case, I did not need to pass the parameter in '(...)'. Because the variable is next to the method.
+	double precoComDesconto(){
+		return preco * (1-desconto);
+	}
 }
