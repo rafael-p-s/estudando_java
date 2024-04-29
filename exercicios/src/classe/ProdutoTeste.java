@@ -26,13 +26,15 @@ public class ProdutoTeste {
 		System.out.println(p2.nome);
 
 		// I'm can doing mathematics with this informations.
-//		double precoFinal1 = p1.preco *(1-p1.desconto);
-		//Now I don't need this line /\. Because I have the method: precoComDesconto.
-		//Now I can do this \/
+		// double precoFinal1 = p1.preco *(1-p1.desconto);
+		// I no longer need this line /\. because I have the method: precoComDesconto.
+		// Now I can do this \/
 		double precoFinal1 = p1.precoComDesconto();
 		System.out.printf("Resultado: R$%.2f.", precoFinal1);
-		
+
+		System.out.println();
+
 		double precoFinal2 = p2.precoComDesconto();
-		System.out.printf("Resultado: R$%.2f.",precoFinal2);
+		System.out.printf("Resultado: R$%.2f.", precoFinal2);
 	}
 }
