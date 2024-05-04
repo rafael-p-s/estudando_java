@@ -10,9 +10,7 @@ public class ProdutoTeste {
 
 		// Type variable = new instantiate(instânciar)
 		// P1 and P2 i can call this how "instância" or "membros"
-		Produto p1 = new Produto();
-		p1.nome = "Notebook";
-		p1.preco = 4356.59;
+		Produto p1 = new Produto("Notebook", 4356.59); //This is to be used with a constructor that has parameters
 		p1.desconto = 0.25;
 
 		// In JAVA, I can insert this variable because JAVA
