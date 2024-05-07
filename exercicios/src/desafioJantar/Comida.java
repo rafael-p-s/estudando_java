@@ -5,9 +5,9 @@ public class Comida {
 	String nome;
 	Double peso;
 
-	Comida(String nomeComida, double pesoComida) {
-		this.nome = nomeComida;
-		this.peso = pesoComida;
+	Comida(String nome, double peso) {
+		this.nome = nome;
+		this.peso = peso;
 	}
 
 	public double PesoComida() {

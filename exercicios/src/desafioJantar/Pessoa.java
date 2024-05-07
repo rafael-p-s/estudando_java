@@ -7,17 +7,20 @@ public class Pessoa {
 
 	public Comida pesoComida;
 
-	Pessoa(String nomePessoa, double pesoPessoa) {
-		nome = nomePessoa;
-		peso = pesoPessoa;
+	Pessoa(String nome, double peso) {
+		this.nome = nome;
+		this.peso = peso;
 	}
 
-	Double pessoaComida(Comida PesoComida) {
+	Double Comer(Comida PesoComida) {
 		return newPeso = peso + PesoComida.PesoComida();
 	}
 
-//	double ComerComida() {
-//		return newPeso =  pesoComida;
+	// Teacher mode:
+//	void comer(Comida comida) {
+//		if(comida != null) {
+//			this.peso += comida.peso;
+//		}
 //	}
 
 }
