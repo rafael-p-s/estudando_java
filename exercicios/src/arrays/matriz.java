@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class matriz {
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
+		Scanner entry = new Scanner(System.in);
 
 		System.out.println("How many students: ");
-		int qtdStudents = entrada.nextInt();
+		int qtdStudents = entry.nextInt();
 
 		System.out.println("How many notes: ");
-		int qtdNotes = entrada.nextInt();
+		int qtdNotes = entry.nextInt();
 
 		double classNotes[][] = new double[qtdStudents][qtdNotes];
 
@@ -18,16 +18,16 @@ public class matriz {
 
 		for (int i = 0; i < classNotes.length; i++) {
 			for (int j = 0; j < classNotes[i].length; j++) {
-				System.out.printf("Insert student's %d note %d", i+1, j+1);
-				classNotes[i][j] = entrada.nextDouble();
+				System.out.printf("Insert student's %d note %d: ", i+1, j+1);
+				classNotes[i][j] = entry.nextDouble();
 				total += classNotes[i][j];
 			}
 		}
 
-		double averege = total / (qtdStudents * qtdNotes);
-		System.out.println("Class averege: " + averege);
+		double average = total / (qtdStudents * qtdNotes);
+		System.out.println("Class average: " + average);
 
-		entrada.close();
+		entry.close();
 
 	}
 }
