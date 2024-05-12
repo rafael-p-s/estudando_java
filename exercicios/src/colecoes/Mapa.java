@@ -38,8 +38,9 @@ public class Mapa {
 		}
 		System.out.println();
 		
+		//In this case, We can take 'key' and 'user' and display them together.
 		for(Entry<Integer,String> registration: user.entrySet()) {
-			System.out.print(registration.getKey()+"==");
+			System.out.print(registration.getKey()+"==>");
 			System.out.println(registration.getValue());
 		}
 	}
