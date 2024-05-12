@@ -18,9 +18,9 @@ public class Fila {
 //		line.isEmpty();//Check if line is empty or not.
 //		line.size();//Check size
 //		line.clear();//Clean the line.
-		
+		line.contains();//Contains():It is used to determine if a certain item is contained.
 		System.out.println("Remove with 'pool':");
-		System.out.println(line.poll());//It will take the first element, display it, and then remove it from the line.
-		
+		System.out.println(line.poll());//It will take the next element in the line, display it, and then remove it from the line.
+		//If the line doesn't have any elements, it will return 'null'
 	}
 }
