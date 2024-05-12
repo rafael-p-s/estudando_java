@@ -45,7 +45,7 @@ public class ConjuntoBaguncado {
 		
 //		conjunto.retainAll(nums);//Use this to hold the values collected in '()'.
 		
-		conjunto.clear();
+		conjunto.clear();//Will clean the array
 		System.out.println(conjunto);
 		
 		
