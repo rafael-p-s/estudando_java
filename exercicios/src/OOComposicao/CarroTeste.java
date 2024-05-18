@@ -30,6 +30,9 @@ public class CarroTeste {
 		c1.frear();
 		System.out.println(c1.motor.giros());
 		
+		//Now, Is possible to use:
+//		c1.motor.carro.motor.carro.motor.giros();
+		
 	}
 
 }
