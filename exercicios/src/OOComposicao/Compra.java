@@ -12,8 +12,6 @@ public class Compra {
 		for(Items items: itens) {
 			total += items.amount * items.price;
 		}
-		
-		
 		return total;
 	}
 }
